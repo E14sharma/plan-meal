@@ -1,0 +1,77 @@
+[
+    {
+        "min": 500,
+        "max": 1000,
+        "breakfast": {
+            "id": 11,
+            "title": "Peanut Butter and Chocolate Oatmeal",
+            "readyInMinutes": 45,
+            "servings": 1,
+            "image": "https://www.acouplecooks.com/wp-content/uploads/2021/01/Peanut-Butter-Oatmeal-018s.jpg"
+        },
+        "lunch": {
+            "id": 12,
+            "title": "Lentil Salad With Vegetables",
+            "readyInMinutes": 40,
+            "servings": 2,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlmH8jCZU2K2PL8yj5aKF7hpnIgfIBw_Zabw&usqp=CAU"
+        },
+        "dinner": {
+            "id": 13,
+            "title": "Asian Noodles",
+            "readyInMinutes": 30,
+            "servings": 3,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8IsCrtnkvSS_xhW3uLeHXGAJljB7QFlvc-w&usqp=CAU"
+        }
+    },
+    {
+        "min": 1001,
+        "max": 2000,
+        "breakfast": {
+            "id": 21,
+            "title": "Spaghetti Bolognese",
+            "readyInMinutes": 120,
+            "servings": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTba_u7jPyLwM3wGF0NOdA-HlxPBjXMhNrExg&usqp=CAU"
+        },
+        "lunch": {
+            "id": 22,
+            "title": "Chocolate Chip Cookies",
+            "readyInMinutes": 60,
+            "servings": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKcT_qmtJlx5Y21vCogaCUCG33bajYFWdQGQ&usqp=CAU"
+        },
+        "dinner": {
+            "id": 23,
+            "title": "Caprese Salad",
+            "readyInMinutes": 25,
+            "servings": 2,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFvrdaULGNUr9C3EoOG4pimBa_T3JwBPRHtw&usqp=CAU"
+        }
+    },
+    {
+        "min": 2001,
+        "max": 3000,
+        "breakfast": {
+            "id": 31,
+            "title": "Vegetable Curry",
+            "readyInMinutes": 40,
+            "servings": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ1KsjKemdsYeFdmk8QFR-q0SehpxplAu_UA&usqp=CAU"
+        },
+        "lunch": {
+            "id": 32,
+            "title": "Spinach and Feta Stuffed Peppers",
+            "readyInMinutes": 65,
+            "servings": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2n_nABLmehwpFYIRDJCUYLFqt_dS1_8OJSw&usqp=CAU"
+        },
+        "dinner": {
+            "id": 33,
+            "title": " Lentil Soup",
+            "readyInMinutes": 50,
+            "servings": 2,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPx-vjd_TgOBi290TXM8eErstzNjJ72DYPLg&usqp=CAU"
+        }
+    }
+]

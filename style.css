@@ -1,0 +1,231 @@
+nav {
+    background-color: #fa3737;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: cursive;
+}
+
+/* Style for the logo image */
+nav img {
+    width: 50px;
+
+    border-radius: 100px;
+    padding: 0%;
+    height: auto;
+    margin-right: 10px;
+    order: -1;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+/* Style for the user form */
+.user-form {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Style for form labels */
+#weight {
+
+
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    margin-right: 60px;
+    margin-left: 80px;
+
+}
+
+#height {
+
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+#age {
+    margin-right: 60px;
+    margin-left: 80px;
+
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+/* Style for input fields and select elements */
+.user-form input,
+.user-form select {
+    flex-basis: calc(33.33% - 10px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: lightgrey;
+
+}
+
+.user-form select[name="gender"] {
+    margin-left: 380px;
+    margin-right: 160px;
+    box-sizing: border-box;
+}
+
+.user-form select[name="activity"] {
+    margin-left: 140px;
+    margin-right: 180px;
+    box-sizing: border-box;
+}
+
+.user-form select[name="gender"] option[disabled] {
+    color: #999;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+
+}
+
+.user-form select[name="activity"] option[disabled] {
+    color: #999;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+/* Style for input placeholders */
+.user-form input::placeholder {
+    color: #999;
+}
+
+/* Style for submit button */
+.user-form button {
+    flex-basis: 100%;
+    background-color: #fa3737;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 550px;
+
+}
+
+/* Style for submit button on hover */
+.user-form button:hover {
+    background-color: #555;
+}
+
+/* Adjust styling as needed */
+/* Style for the meal plan section */
+.meal-plan {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Style for the meal cards */
+.meal-card {
+    border: 1px solid #ddd;
+    padding: 60px;
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+.meal-card img {
+    max-width: 100%;
+    background-size: cover;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.get-recipe-btn {
+    background-color: #fa3737;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.get-recipe-btn:hover {
+    background-color: #555;
+}
+
+.bg {
+    background-color: #fa3737;
+    color: #ddd;
+    margin-top: 0px;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+.bg h3 {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Style for the meal plan section */
+.meal-plan {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+/* Style for the meal cards */
+.meal-card {
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+
+    position: relative;
+    color: #fa3737;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.meal-card img {
+    /* max-width: 100%; */
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+
+
+}
+
+.get-recipe-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.get-recipe-btn:hover {
+    background-color: #555;
+}
+
+.recipe-section {
+    background-color: aliceblue;
+}
