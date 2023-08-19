@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*nav bar */
+
 nav {
     background-color: #fa3737;
     color: white;
@@ -186,9 +194,11 @@ nav h2 {
     margin-top: 20px;
     flex-direction: row;
     align-items: center;
-
-
 }
+
+/* #plan {
+    display: flex;
+} */
 
 /* Style for the meal cards */
 .meal-card {
@@ -227,5 +237,55 @@ nav h2 {
 }
 
 .recipe-section {
+    width: auto;
     background-color: aliceblue;
 }
+
+.recipe-section h2 {
+    color: #fa3737;
+}
+
+#recipeContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 16px;
+    /* width: 100vw; */
+    border: 1px solid black;
+    padding: 8px 40px;
+    /* box-sizing: border-box; */
+}
+
+.item {
+    text-align: center;
+    width: auto;
+    height: 100%;
+}
+
+.item2 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 2;
+
+    margin: 4px 8px;
+    padding: 20px;
+}
+
+#head {
+    color: #fa3737;
+    background-color: lightgrey;
+    font-weight: bolder;
+
+}
+
+#move {
+    text-align: center;
+    text-shadow: #333;
+}
+
+/* #img {
+    height: 200px;
+    width: 1000px;
+
+} */
